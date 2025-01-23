@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto ;
+    padding:20px ;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.primary-btn{
+    background: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}

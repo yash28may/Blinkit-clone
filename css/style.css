@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto' sans-serif;
+    box-sizing: border-box;
+}
+
+/* header part */
+header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 22px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.header-address{
+    padding: 20px 30px;
+}
+
+.header-address h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-family: 'roboto';
+}
+
+.search-box{
+   flex-grow:1 ;
+   background-color: #F8F8F8;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+
+}
+
+.search-box button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.search-box input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.search-box input:focus{
+    outline: none;
+}
