@@ -9,11 +9,13 @@
 header{
     display: flex;
     align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #F4F4F4;
 }
 
 .logo{
     padding: 22px 30px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #F4F4F4;
 }
 
 .header-address{
@@ -52,3 +54,31 @@ header{
 .search-box input:focus{
     outline: none;
 }
+
+.header-btn{
+    gap: 3rem;
+    margin-right: 40px;
+}
+
+.header-btn button{
+    padding: 15px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'roboto';
+}
+
+.header-btn button:last-child{
+    font-size: 1rem;
+    background-color: #0C831F;
+    border-radius: 10px;
+    color: white;
+}
+
+/* banner section */
+
+.banner-container img{
+    max-width: 100% ;
+}
+
