@@ -5,8 +5,8 @@
 
 .container{
     max-width: 1280px;
-    margin-inline: auto ;
-    padding:20px ;
+    margin: auto ;
+    padding-top:5px ;
 }
 
 .small-bold-text{
@@ -15,11 +15,27 @@
 }
 
 .primary-btn{
-    background: var(--accent-color);
+    background: #F7FFF9;
     border-radius: 6px;
     font-weight: 700;
     color: white !important;
     padding: 12px 24px;
-    box-shadow: 0 0 2px var(--secondary-text-color);
-    transition: 0.2s ease-out;
+    /* box-shadow: 0 0 2px var(--secondary-text-color); */
+    /* transition: 0.2s ease-out; */
+}
+
+.btn{
+  border: 1px solid #0C831F;  
+  padding: 10px 25px;
+  background: #F7FFF9;
+  border-radius: 5px;
+  color:#0c831f ;
+  margin-bottom: 10px;
+
+}
+
+.caps{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #abaaaa;
 }

@@ -20,6 +20,20 @@
         bottom: 0px;
         justify-content: center;
         margin-right: 0px;
+        background-color: white;
+    }
+
+    .banner-section{
+        display: none;
+    }
+
+    .orderbanner{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .category-items{
+        flex-basis: 25%;
     }
 
 }
